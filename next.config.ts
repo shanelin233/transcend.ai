@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/transcend.ai',
+  // Remove basePath for Cloudflare Pages (custom domain)
 };
 
 export default nextConfig;
