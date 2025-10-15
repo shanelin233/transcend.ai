@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Search } from 'lucide-react';
 
 export default function Header() {
@@ -7,10 +8,10 @@ export default function Header() {
       <nav className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Logo and Brand */}
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Image src="/logo.svg" alt="Logo" width={32} height={32} />
             <span className="text-xl font-semibold text-gray-900">Transend AI</span>
-          </a>
+          </Link>
 
           {/* Search Bar */}
           <div className="hidden md:flex items-center gap-2 px-3 py-2 bg-gray-50 rounded-lg border border-gray-200 w-64">
@@ -26,21 +27,21 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="flex items-center gap-6">
-          <a href="#" className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+          <button className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
             Models
-          </a>
-          <a href="#" className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+          </button>
+          <button className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
             Chat
-          </a>
-          <a href="#" className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+          </button>
+          <button className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
             Rankings
-          </a>
-          <a href="#" className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+          </button>
+          <button className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
             Enterprise
-          </a>
-          <a href="#" className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+          </button>
+          <button className="hidden md:inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
             Docs
-          </a>
+          </button>
           <button className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg hover:from-indigo-600 hover:to-purple-700 transition-all shadow-sm hover:shadow-md">
             Sign in
           </button>
