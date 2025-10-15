@@ -152,4 +152,4 @@ MIT License - feel free to use this project for your own purposes.
 
 ## Credits
 
-Design inspired by [OpenRouter.ai](https://openrouter.ai)
+
