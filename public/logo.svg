@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon background -->
+  <path d="M20 2L35 11V29L20 38L5 29V11L20 2Z" fill="url(#logoGradient)"/>
+
+  <!-- Letter T -->
+  <path d="M14 13H26V16H22V28H18V16H14V13Z" fill="white"/>
+</svg>
